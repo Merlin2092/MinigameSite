@@ -1,0 +1,33 @@
+{% block menu %}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark-red <!--fixed-top OR sticky-top-->">
+		<a class="navbar-brand" href="/">
+			<h2 class="m-0 no-text-select">MinigameSite</h2>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon no-text-select"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="/hangman">
+						<h4 class="m-0 no-text-select">Hangman</h4>
+					</a>
+				</li>
+			</ul>
+			<div class="navbar-toggler h-divider"></div>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/login">
+						<h4 class="m-0 no-text-select">Login</h4>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/register">
+						<h4 class="m-0 no-text-select">Registrieren</h4>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+{% endblock %}
